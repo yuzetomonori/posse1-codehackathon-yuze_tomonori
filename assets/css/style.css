@@ -1,0 +1,187 @@
+/* 1. 共通*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(248, 152, 108);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.8%;
+    text-decoration: none;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+section {
+    margin-bottom: 8%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+img {
+    border-radius: 32px;
+}
+.img-horizontal {
+    width: 1000px;
+    height: 667px;
+}
+.img-mini {
+    width: 400px;
+    height: 600px;
+}
+.img-vertical {
+    width: 1000px;
+    height: 1500px;
+}
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+h2{
+    font-size: 70px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+p {
+    font-size: 40px;
+    font-weight: 400;
+}
+.cta-primary {
+    text-decoration: none;
+    color: rgb(254, 98, 0);
+    font-size: 50px;
+}
+
+/* 2. ヒーロー*/
+.hero {
+    position: relative;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(249, 100, 7);
+}
+.hero-bg {
+    width: 1242px;
+    height: 828px;
+    z-index: 100;
+    border-radius: 0;
+    opacity: 0.5;
+}
+.hero-content {
+    position: absolute;
+    z-index: 200;
+}
+.scroll-indicator {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 40px;
+    z-index: 200;
+    font-size: 60px;
+}
+.hero h1 {
+    font-size: 70px;
+}
+.hero p {
+    font-size: 50px;
+    font-weight: 500;
+}
+/* 3. ワーク*/
+.work-card {
+    gap: 30px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    width: 1000px;
+    border-radius: 16px;
+    font-size: 40px;
+}
+.timeline-time {
+    font-size: 60px;
+}
+.timeline-content {
+    width: 700px;
+}
+.timeline h4 {
+    font-size: 40px;
+}
+/* 4. ベネフィット*/
+.benefits-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    width: 1000px;
+    border-radius: 16px;
+    font-size: 40px;
+}
+.benefit-icon {
+    font-size: larger;
+}
+.benefit-card {
+    width: 700px;
+}
+/* 5. アイディール*/
+.ideal-content {
+    width: 700px;
+}
+/* 6. リクワイヤメント*/
+.requirement-content {
+    width: 700px;
+}
+/* 7. サポート*/
+.support-content {
+    width: 700px;
+}
+/* 8. プロセス*/
+.process-number {
+    font-size: 50px;
+}
+.process-content {
+    width: 700px;
+}
+.process-content h4 {
+    font-size: 55px;
+}
+.process-arrow {
+    font-size: 50px;
+}
+/* 9. ギャラリー*/
+.gallery-item {
+    margin-top: 30px;
+}
+/* 10. アプライ*/
+.cta-section {
+    background-color: #fff;
+    margin: 0;
+    padding-bottom: 80px;
+}
+.cta-secondary {
+    font-size: 60px;
+}
+/* 11. フッター*/
+footer {
+    background-color: #fff;
+    padding-bottom: 60px;
+}
