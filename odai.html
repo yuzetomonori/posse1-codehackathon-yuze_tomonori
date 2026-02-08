@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CROCCA BAKERY - 採用情報</title>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/pc/style.css">
    
 </head>
 <body>
     <section class="hero">
-        <img class="hero-bg" >
+        <img class="hero-bg" src="./assets/img/2.jpg">
         <div class="hero-content">
             <p class="hero-subtitle">Join Our Team</p>
             <h1 class="hero-title">
@@ -22,14 +25,15 @@
             </p>
             <a href="#apply" class="cta-primary">応募する</a>
         </div>
-        <div class="scroll-indicator"></div>
+        <div class="scroll-indicator">SCROLL DOWN</div>
     </section>
 
     <section id="mission" class="section mission-section">
         <div class="container">
+            <img src="./assets/img/crocca-new-logo.jpg" alt="" style="width: 200px; height: 200px;">
             <h2 class="section-title reveal">CROCCAの世界観</h2>
-            <div class="mission-content">
-                <div class="mission-text reveal">
+            <div class="mission-content splide" role="group" aria-label="Splideの基本的なHTML">
+                <div class="mission-text reveal splide__track">
                     <div class="mission-logo">
                         <h2>CROCCA</h2>
                     </div>
@@ -37,23 +41,23 @@
                         洗練された空間と美味しさで、<br>
                         心満たされる豊かな毎日を
                     </p>
-                    <div class="mission-values">
-                        <div class="value-item">
+                    <ul class="mission-values splide__list">
+                        <li class="value-item splide__slide">
                             <h3>素材へのこだわり</h3>
-                            <p>厳選された材料を使い、一つひとつ丁寧に焼き上げるクロワッサン。外はサクサク、中はしっとりとした食感が自慢です。</p>
-                        </div>
-                        <div class="value-item">
+                            <p>厳選された材料を使い、一つひとつ <br>丁寧に焼き上げるクロワッサン。<br>外はサクサク、中はしっとりとした食感が自慢です。</p>
+                            <img src="./assets/img/29.jpg" alt="" class="img-horizontal">
+                        </li>
+                        <li class="value-item splide__slide">
                             <h3>空間の美しさ</h3>
-                            <p>自然光が差し込む洗練された空間で、お客様に心地よいひとときを提供します。</p>
-                        </div>
-                        <div class="value-item">
+                            <p>自然光が差し込む洗練された空間で、 <br>お客様に心地よいひとときを提供します。</p>
+                            <img src="./assets/img/17.jpg" alt="" class="img-horizontal">
+                        </li>
+                        <li class="value-item splide__slide">
                             <h3>丁寧な仕事</h3>
-                            <p>一つひとつの工程に心を込め、お客様の笑顔のために最高の商品とサービスをお届けします。</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="mission-image reveal">
-                    <img >
+                            <p>一つひとつの工程に心を込め、お客様の笑顔のために <br>最高の商品とサービスをお届けします。</p>
+                            <img src="./assets/img/11.jpg" alt="" class="img-horizontal">
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -61,8 +65,8 @@
 
     <section id="work" class="section work-section">
         <div class="container">
-            <h2 class="section-title reveal">働く時間</h2>
-            <p style="text-align: center; max-width: 700px; margin: 0 auto 30px; color: var(--dark-brown); line-height: 2;">
+            <h2 id="worktime" class="section-title reveal">働く時間</h2>
+            <p>
                 朝の静けさの中でパンを焼き上げ、お客様の笑顔に出会い、丁寧な仕事で一日を締めくくる。<br>
                 CROCCAでの一日は、心を込めた時間の積み重ねです。
             </p>
@@ -70,37 +74,37 @@
             <div class="work-grid">
                 <div class="work-card reveal">
                     <div class="work-image">
-                        <img >
+                        <img src="./assets/img/14.jpg" class="img-vertical">
                     </div>
                     <div class="work-content">
                         <h3>朝の製造</h3>
-                        <p>静かな朝の時間、クロワッサンの生地を丁寧に成形し、オーブンで焼き上げます。焼きたての香ばしい香りに包まれる特別な時間です。</p>
+                        <p>静かな朝の時間、クロワッサンの生地を丁寧に成形し、オーブンで焼き上げます。 <br>焼きたての香ばしい香りに包まれる特別な時間です。</p>
                     </div>
                 </div>
                 
                 <div class="work-card reveal">
                     <div class="work-image">
-                        <img >
+                        <img src="./assets/img/20.jpg" class="img-vertical">
                     </div>
                     <div class="work-content">
                         <h3>ランチサービス</h3>
-                        <p>お客様との会話を楽しみながら、商品をご提案。笑顔でお迎えし、心地よい空間を提供します。</p>
+                        <p>お客様との会話を楽しみながら、商品をご提案。 <br>笑顔でお迎えし、心地よい空間を提供します。</p>
                     </div>
                 </div>
                 
                 <div class="work-card reveal">
                     <div class="work-image">
-                        <img >
+                        <img src="./assets/img/12.jpg" class="img-vertical">
                     </div>
                     <div class="work-content">
                         <h3>午後の製造・準備</h3>
-                        <p>翌日の仕込みや店内の整理を行い、丁寧に一日を締めくくります。次の日への準備も大切な仕事です。</p>
+                        <p>翌日の仕込みや店内の整理を行い、丁寧に一日を締めくくります。 <br>次の日への準備も大切な仕事です。</p>
                     </div>
                 </div>
             </div>
             
             <div class="timeline">
-                <h3 style="font-family: var(--font-serif); font-size: 2rem; text-align: center; margin-bottom: 40px; color: var(--deep-brown);">1日の流れ</h3>
+                <h3>1日の流れ</h3>
                 <div class="timeline-item reveal">
                     <div class="timeline-time">6:30</div>
                     <div class="timeline-content">
@@ -179,7 +183,7 @@
         <div class="ideal-grid">
             <div class="ideal-item reveal"><p>人と話すのが好きで、思いやりを大切にできる方</p></div>
             <div class="ideal-item reveal"><p>笑顔で接客できる、明るく前向きな方</p></div>
-            <div class="ideal-item reveal"><p>パンが好きで、知識よりも「好き」の気持ちを大切にできる方</p></div>
+            <div class="ideal-item reveal"><p>パンが好きで、知識よりも <strong>「好き」</strong>の気持ちを大切にできる方</p></div>
             <div class="ideal-item reveal"><p>クロワッサン作りやものづくりに興味がある方</p></div>
             <div class="ideal-item reveal"><p>丁寧な作業を積み重ねる忍耐力のある方</p></div>
             <div class="ideal-item reveal"><p>自分のこだわりや芯を持って仕事に向き合える方</p></div>
@@ -310,22 +314,22 @@
             <h2 class="section-title reveal">CROCCAの空間</h2>
             <div class="gallery-grid">
                 <div class="gallery-item reveal">
-                    <img >
+                    <img src="./assets/img/4.jpg" class="img-horizontal">
                 </div>
                 <div class="gallery-item reveal">
-                    <img >
+                    <img src="./assets/img/1.jpg" class="img-horizontal">
                 </div>
                 <div class="gallery-item reveal">
-                    <img >
+                    <img src="./assets/img/3.jpg" class="img-horizontal">
                 </div>
                 <div class="gallery-item reveal">
-                    <img >
+                    <img src="./assets/img/17.jpg" class="img-horizontal">
                 </div>
                 <div class="gallery-item reveal">
-                    <img >
+                    <img src="./assets/img/16.jpg" class="img-horizontal">
                 </div>
                 <div class="gallery-item reveal">
-                    <img >
+                    <img src="./assets/img/2.jpg" class="img-horizontal">
                 </div>
             </div>
         </div>
@@ -340,8 +344,8 @@
                 <p>私たちと一緒に、お客様に豊かな時間を届けませんか。</p>
                 
                 <p class="cta-note">
-                    まずは話だけ聞きたい方も大歓迎です<br>
-                    未経験でも安心してご応募ください
+                    まずは話だけ聞きたい方も大歓迎です。<br>
+                    未経験でも安心してご応募ください。
                 </p>
                 
                 <a href="mailto:recruit@crocca-bakery.com" class="cta-secondary">応募・お問い合わせ</a>
@@ -356,9 +360,10 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 CROCCA BAKERY. All rights reserved.</p>
+            <small>&copy; 2025 CROCCA BAKERY. All rights reserved.</small>
         </div>
     </footer>
 
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
