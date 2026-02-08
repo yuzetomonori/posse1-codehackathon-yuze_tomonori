@@ -59,11 +59,7 @@ p {
     font-size: 40px;
     font-weight: 400;
 }
-.cta-primary {
-    text-decoration: none;
-    color: rgb(254, 98, 0);
-    font-size: 50px;
-}
+
 
 /* 2. ヒーロー*/
 .hero {
@@ -103,6 +99,14 @@ p {
     font-size: 50px;
     font-weight: 500;
 }
+.cta-primary {
+    text-decoration: none;
+    color: rgb(254, 98, 0);
+    font-size: 50px;
+}
+.cta-primary:hover {
+    color: rgb(255, 0, 0);
+}
 /* 3. ワーク*/
 .work-card {
     gap: 30px;
@@ -131,7 +135,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: bisque;
+    background-color: rgb(255, 197, 126);
     width: 1000px;
     border-radius: 16px;
     font-size: 40px;
@@ -145,6 +149,12 @@ p {
 /* 5. アイディール*/
 .ideal-content {
     width: 700px;
+}
+.ideal-grid {
+    border-radius: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(253, 76, 0);
 }
 /* 6. リクワイヤメント*/
 .requirement-content {
