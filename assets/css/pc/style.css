@@ -48,6 +48,12 @@
     .work-card:nth-child(even) {
         flex-direction: row-reverse;
     }
+    .work-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
     .work-content {
         display: flex;
         flex-direction: column;
